@@ -244,16 +244,20 @@ body {
 }
 
 .imageMovie {
-  position: relative;
   width: 200px;
   height: 374px;
   flex-shrink: 0;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
+
+.movie-card {
+  position: relative;
+}
 .imageVector {
   position: absolute;
-
+  top: 5px;
+  left: 10px;
   fill: rgba(0, 0, 0, 0.6);
   z-index: 2;
 }
