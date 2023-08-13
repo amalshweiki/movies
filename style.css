@@ -244,9 +244,18 @@ body {
 }
 
 .imageMovie {
+  position: relative;
   width: 200px;
   height: 374px;
   flex-shrink: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.imageVector {
+  position: absolute;
+
+  fill: rgba(0, 0, 0, 0.6);
+  z-index: 2;
 }
 .insidious {
   color: var(--gray-100, #262626);
